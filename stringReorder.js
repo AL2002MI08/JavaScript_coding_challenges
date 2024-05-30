@@ -15,3 +15,9 @@
 // 'Vatsan took his dog for a spin'
 
 const sentence = arrayOfObjects => arrayOfObjects.map(i => Object.entries(i)[0]).sort(([a], [b]) => a - b).map(([_, e]) =>e).join(" ");
+// or
+// const sentence = list =>
+//     list
+//       .sort((a, b) => Object.keys(a)[0] - Object.keys(b)[0])
+//       .map(item => Object.values(item)[0])
+//       .join(' ')
