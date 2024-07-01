@@ -13,4 +13,3 @@ function winner(deckSteve, deckJosh) {
     if(steve == josh) return 'Tie';
     return steve > josh ? `Steve wins ${steve} to ${josh}` : `Josh wins ${josh} to ${steve}`;
   }
-  
