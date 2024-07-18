@@ -1,0 +1,1 @@
+export const countRedBeads = (n: number): number => n ? (n - 1) * 2 : 0;
