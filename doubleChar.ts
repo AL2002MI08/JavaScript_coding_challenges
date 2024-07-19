@@ -1,0 +1,1 @@
+export const doubleChar = (str: string):  string => str.split('').map(e => e.repeat(2)).join('')
